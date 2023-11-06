@@ -1,0 +1,59 @@
+*{
+    font-family: montserrat;
+    font-weight: normal;
+}
+body {
+        background: linear-gradient(to right, #fff4cc, #ffffff);
+
+    }
+    
+h1 {
+    color: rgb(12, 63, 46);
+    font-family: montserrat;
+    text-decoration: rgb(249, 80, 68) wavy underline;
+    font: weight 100%;
+
+}
+h2 {
+    color: rgb(12, 63, 46);
+    font-family: montserrat;
+    font: weight 100%  
+}
+h5 {
+    color: brown;
+    font-family: montserrat;
+    font-size: 34px;
+
+}
+button {
+    color: rgb(214, 226, 43);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    border-radius: 70px;
+    cursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+  }
+button:hover {
+    background-color: #29b982; 
+    box-shadow: 0 0 5px 0 rgba(219, 96, 52, 0.789);
+    cursor: pointer;
+  }
+#somya{
+    color: midnightblue;
+    font-weight: normal;
+}
+#jha {
+    color: rgb(2, 142, 30);
+}
+.shree{
+    color: black;
+}
+#page3 {
+    text-align: right;
+}
+#navv {
+    padding-left: 20px;
+}
