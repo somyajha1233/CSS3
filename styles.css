@@ -1,5 +1,5 @@
 *{
-    font-family: montserrat;
+    font-family:  'Poppins', sans-serif;
     font-weight: normal;
 }
 body {
@@ -77,4 +77,9 @@ button:hover {
     background-color: black;
     width: 150px;
     border-radius: 8px;
+}
+#footer{
+    height:100px;
+    background-color: aqua;
+    text-decoration: rgb(249, 80, 68) wavy underline;
 }
