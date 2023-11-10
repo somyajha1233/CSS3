@@ -10,21 +10,30 @@ body {
     background: linear-gradient(to right, #fff4cc, #ffffff);
     
 }
+#page1{
+    background-image: url('forest-3622519_1280.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover; /* This property ensures the background image covers the entire element */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Fixed background image */
+    /* Additional styles for the page content if needed */
+    color: rgb(250, 133, 133); /* Example text color for better visibility against the background */
+    opacity: 0.9;
+  }
 body {
     margin: 0;
     padding: 0;
     font-family: Poppins;
-   
     
 }
 
 .navbar {
-    background-color: #f4a5a5;
+    background-color: #c5f4a5;
     color: rgb(0, 5, 11);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    color: #2d2c2c;
 }
 
 .logo {
@@ -84,7 +93,7 @@ h2 {
     font: weight 100%  
 }
 h5 {
-    color: brown;
+    color: rgb(0, 7, 6);
     font-family: montserrat;
     font-size: 34px;
 
@@ -99,6 +108,7 @@ h5 {
 }
 a {
     text-decoration: none;
+    color: #2d2c2c;
   }
 #io:hover {
     background-color: #29b982; 
