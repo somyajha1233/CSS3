@@ -18,7 +18,16 @@ body {
     /* Additional styles for the page content if needed */
     color: rgb(250, 133, 133); /* Example text color for better visibility against the background */
     opacity: 0.9;
-  }
+}
+    #page6{
+        background-image: url('pexels-mali-maeder-45987.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+        background-size: cover; /* This property ensures the background image covers the entire element */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        background-attachment: fixed; /* Fixed background image */
+        /* Additional styles for the page content if needed */
+        color: rgb(250, 133, 133); /* Example text color for better visibility against the background */
+        opacity: 0.9;
+    }
 body {
     margin: 0;
     padding: 0;
@@ -235,8 +244,9 @@ display:flex;
     border-radius: 13px;
     background-color: #f0ba5e;
 }
+
 #om{
-    background-color: #3eaf6b;
+    background-color: #000100;
     width: 100px ;
     height: 100px;
     border-radius: 20px;
@@ -271,7 +281,7 @@ display:flex;
     border: 5px solid black;
 }
 #om:hover{
-    background-color: #5dff2b;
+    background-color: #2bedff;
     width: 115px ;
     height: 100px;
     border-radius: 20px;
@@ -280,6 +290,7 @@ display:flex;
     display: inline-block;
     text-align: center;
     border: 5px solid black;
+    display: inline-block;
 
 }
 #omm:hover{
@@ -307,4 +318,29 @@ display:flex;
 }
 box{
     align-content: center;
+}
+.hover-text {
+    display: none;
+}
+
+.hover-container:hover .hover-text {
+    display: block;
+}
+#om, #omm, #ommm {
+    transition: all 0.3s ease; /* Add transition for all properties with 0.3 seconds duration and ease timing function */
+}
+
+#om:hover {
+    background-color: #5dff2b;
+    width: 120px;
+}
+
+#omm:hover {
+    background-color: #ff792b;
+    width: 120px;
+}
+
+#ommm:hover {
+    background-color: #2bb1ff;
+    width: 120px;
 }
