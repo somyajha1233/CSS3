@@ -1,6 +1,8 @@
-const burgerMenu = document.querySelector('.burger-menu');
-const navList = document.querySelector('.nav-list');
-
-burgerMenu.addEventListener('click', () => {
-    navList.classList.toggle('active');
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
+const navbg = document.querySelector('.nav-bg');
+menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+    navbg.classList.toggle('active');
 });
