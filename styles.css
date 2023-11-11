@@ -267,7 +267,7 @@ display:flex;
     text-align: center;
     align-content: center;
     border: 5px solid black;
-    color: #5dff2b;
+    color: #f8ff2b;
 }
 #ommm{
     background-color: #2bffe6;
@@ -279,6 +279,7 @@ display:flex;
     display: inline-block;
     text-align: center;
     border: 5px solid black;
+    color: teal;
 }
 #om:hover{
     background-color: #2bedff;
@@ -287,11 +288,9 @@ display:flex;
     border-radius: 20px;
     margin: 25px;
     padding: 25px;
-    display: inline-block;
     text-align: center;
     border: 5px solid black;
-    display: inline-block;
-
+    color: #000100;
 }
 #omm:hover{
     background-color: #ff792b;
@@ -315,6 +314,7 @@ display:flex;
     display: inline-block;
     text-align: center;
     border: 5px solid black;
+    color: #000100;
 }
 box{
     align-content: center;
@@ -344,3 +344,146 @@ box{
     background-color: #2bb1ff;
     width: 120px;
 }
+#circle1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 4px solid black;
+    display: inline-block;
+    position: relative;
+    left: 7px;
+    background-image: url("forest-3622519_1280.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 15px;
+}
+#circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 4px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    background-image: url("pexels-mali-maeder-45987.jpg");
+    background-size: cover;
+}
+#circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 4px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    background-image: url("forest-3622519_1280.jpg");
+    background-size: cover;
+}
+#circle4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 4px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    background-image: url("CSS3_logo_and_wordmark.svg.png");
+    background-size: cover;
+}
+#circle1:hover{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 7px solid black;
+    display: inline-block;
+    position: relative;
+    left: 7px;
+    background-image: url("forest-3622519_1280.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 15px;
+}
+#circle2:hover{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 7px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    background-image: url("pexels-mali-maeder-45987.jpg");
+    background-size: cover;
+}
+#circle3:hover{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 7px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    background-image: url("forest-3622519_1280.jpg");
+    background-size: cover;
+}
+#circle4:hover{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2bb1ff;
+    border: 7px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    flex-direction: row;
+    background-image: url("CSS3_logo_and_wordmark.svg.png");
+    background-size: cover;
+}
+#page8{
+    display: flex;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: #2bedff;
+    border: 2px solid black;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: #2bedff;
+    border: 2px solid black;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: #2bedff;
+    border: 2px solid black;
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: #2bedff;
+    border: 2px solid black;
+}
+#box5{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2bedff;
+    border: 2px solid black;
+}
+
+
+
